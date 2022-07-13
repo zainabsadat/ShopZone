@@ -1,0 +1,186 @@
+/*! HTML5 Naser belal managment system v1.0.0 | mohammadireza29@gmail.com ---   0779538428 --- 0781500616*/
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Monir AhmadYar, Masih Ahmadyar,
+ * Reza Mohammadi.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+body{
+    background-color: white;
+}
+.all-web{
+    width: 100%;
+    background-color: white;
+    /* height: 400px; */
+    padding: 30px;
+}
+label{
+    width: 100px;
+}
+input[type="file"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  label.st {
+   cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .edt {
+    border: none;
+    border-radius: 1px;
+    padding: 1px;
+    margin-top: 3px;
+    margin-right: 1px;
+    width: 23px;
+    height: 25px;
+    background-color: dodgerblue;
+    cursor: pointer;
+  }
+  .attach-tbl{
+      background-color: rgb(231, 142, 7) !important;
+  }
+  .edt:hover{
+      background-color: rgb(5, 60, 116);
+  }
+  button.edt:nth-child(2){
+      background-color: green;
+  }
+
+  button.edt:nth-child(1){
+      background-color: red;
+  }
+     td{
+      text-align: center !important;
+  }
+  .edt-sp {
+    position: absolute;
+    transition: 400ms;
+    overflow: hidden;
+
+  }
+
+  .edt-sp:hover {
+    transition: 400ms;
+    width: 90px;
+    border-radius: 40px;
+  }
+  thead {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: lighter;
+    border-radius: 20px;
+
+  }
+  input.tb-search{
+    border: 1px solid rgb(141, 141, 141);
+    padding: 15px;
+    border-radius: 5px;
+    height: 40px;
+    border:1px solid black !important;
+    outline:2px solid dodgerblue !important;
+    transition: 400ms;
+    padding-right: 60px !important;
+    margin-right: 20px;
+  }
+  input.tb-search::placeholder{
+    color: black;
+  }
+  span.sh-m{
+      position: absolute;
+      margin-right: 34px !important;
+      margin-top: 12px;
+      font-size: 17px;
+      color: black;
+  }
+  #table-man{
+      border-radius: 0;
+      border: none;
+  }
+  .dataTables_length label{
+    /* border: 1px solid black; */
+     width: 200px; 
+  }
+  @media print{
+    .print{
+      display: none;
+    }
+    thead{
+      background-color: grey;
+      color:black;
+    }
+    .total_salaries{
+      color: black;
+    }
+    thead, tbody, th, td, tr{
+    border: 1px solid black !important;
+    }
+    thead{
+      border-top: 1px solid black !important;
+    }
+  }
+  .cs_prof_box{
+    /* border: 1px solid grey; */
+    height: 350px;
+    border-radius: 13px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow:0px 0px 11px 1px #00000036;
+  }
+  .cs_prof_box .avatar{
+    overflow: hidden;
+    height: 220px;
+    /* border: 1px solid red; */
+  }
+  .cs_prof_box .avatar img{
+    width: 140%;
+  }
+  .cs_prof_box .avatar .forg{
+    position: absolute;
+    top: 18px;
+    left: 15%;
+    width: 180px;
+  }
+  .cs_prof_box .Title{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   color: dodgerblue;
+   font-size: 20px;
+  }
+  .cs_prof_box .content{
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    /* background-color: firebrick; */
+    /* height: 83%; */
+    /* background-color: rgb(236, 236, 236); */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+  .cs_prof_box .content .cn{
+    position: absolute;
+    right: 18px;
+    top: 50px;
+  }
+  .cs_prof_box .content .br{
+    position: absolute;
+    right: 18px;
+    top: 70px;
+  }
+  .cs_prof_box .content .bl{
+    position: absolute;
+    right: 18px;
+    top: 90px;
+  }

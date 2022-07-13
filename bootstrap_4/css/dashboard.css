@@ -1,0 +1,68 @@
+/*! HTML5 Naser belal managment system v1.0.0 | mohammadireza29@gmail.com ---   0779538428 --- 0781500616*/
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Monir AhmadYar, Masih Ahmadyar,
+ * Reza Mohammadi.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+.all-web{
+    margin-top: 25px;
+}
+.panel{
+    height: 90px;
+    margin: 10px 0;
+    /* border: 1px solid black;     */
+}
+.panel .color-box{
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    width: 38%;
+    height: 89px;
+    background: linear-gradient(to top left, #ff0000 0%, #ff9933 100%);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel .color-box img{
+    transition: ease-in-out all 300ms !important;
+}
+.panel .color-box:hover img{
+    width: 78px;
+    transition: ease-in-out  all 300ms;
+}
+.panel .content{
+    width: 62% !important;
+    height: 100%;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    background-color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+}
+
+.panel .content .numbers{
+    float: left;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+/* colors for backof the panel */
+.panel .content h6{
+    float: left !important;
+    color: grey;
+    top: 60px;
+}
+.sales{background: linear-gradient(to top left, #ff0066 0%, #ff99ff 100%) !important;}
+.orders{background: linear-gradient(to top left, #3366ff 0%, #00ccff 100%) !important;}
+.balance{background: linear-gradient(to top left, #339966 0%, #00ffcc 100%) !important;}

@@ -1,0 +1,62 @@
+.add-modal{
+    position: fixed;
+    background-color: white;
+    border: 1px solid grey;
+    z-index: 1002;
+    right: 8%;
+    width: 84%;
+    top: 60px;
+    box-shadow:3px 4px 5px 0px #0000004f;
+    padding: 10px;
+    display: none;
+    z-index: 1005;
+}
+.black-bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.493);
+    display: none;
+}
+.blur_fil{
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+.close_span{
+    background-color: black;
+    left: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    cursor: pointer;
+}
+.close_span:hover:active{
+    background-color: red;
+}
+.close_span:hover img{
+    padding: 2px;
+    transition: 420ms all;
+}
+.edit-modal{
+    position: fixed;
+    background-color: white;
+    border: 1px solid grey;
+    z-index: 1002;
+    right: 8%;
+    width: 84%;
+    top: 60px;
+    box-shadow:3px 4px 5px 0px #0000004f;
+    padding: 10px;
+    display: none;
+    z-index: 1005;
+}
+.reg{
+    float: left;
+}
+.entry{
+    float: right;
+}

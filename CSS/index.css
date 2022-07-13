@@ -1,0 +1,78 @@
+.sidenav {
+    height: 100%;
+    width: 68px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1F4594;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 40px;
+    color: white;
+  }
+  #nav_button {
+    color: #1F4594;
+    position: absolute;
+    top: 5px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .user-panel {
+    margin-bottom: 20px;
+  }
+  .info {
+    visibility: hidden;
+    color: white;
+    margin-left: 35px !important;
+    margin-right: -20px;
+  }
+  .info h5 {
+    font-size: 16px;
+    margin-top: -1px;
+  }
+  .info h6 {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  #logo {
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+  }
+  #account, #buy, #employee, #expense, #payment, #sales, #shop, #setting, #balance {
+    font-size: 16px;
+    color: white;
+  }
+  #account-link,#buy-link, #employee-link, #expense-link, #payment-link, #sales-link, #shop-link, #account, #buy, #employee, #expense, #payment, #sales, #shop, #setting, #balance {
+    visibility: hidden;
+  }
+  .treeview-menu li a {
+    margin-left: 40px;
+    font-size: 13px;
+    color: white;
+  }
+  .treeview {
+    margin-bottom: 12px !important;
+  }
+  #page_content {
+    margin-top: 60px;
+  }
+  iframe {
+    height: calc(100vh - 0px) !important;
+    display: block; 
+    width: 100% !important; 
+    border: none; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+    margin-top: -60px !important;
+  }

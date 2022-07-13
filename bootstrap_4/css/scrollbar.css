@@ -1,0 +1,22 @@
+/*! HTML5 Naser belal managment system v1.0.0 | mohammadireza29@gmail.com ---   0779538428 --- 0781500616*/
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Monir AhmadYar, Masih Ahmadyar,
+ * Reza Mohammadi.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgb(201, 221, 241);
+    /* box-shadow: 1px 1px 12px 1px black; */
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(107, 181, 255);
+    border-radius: 5px;
+} 
+ 
